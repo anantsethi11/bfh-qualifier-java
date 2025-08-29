@@ -1,0 +1,11 @@
+bfh:
+  name: "Your Name"
+  regNo: "REG12347"
+  email: "you@example.com"
+  endpoints:
+    generateWebhook: "https://bfhldevapigw.healthrx.co.in/hiring/generateWebhook/JAVA"
+    fallbackSubmit: "https://bfhldevapigw.healthrx.co.in/hiring/testWebhook/JAVA"
+  preferReturnedWebhook: true
+  sql:
+    odd: "SELECT 1;"
+    even: "SELECT 1;"
