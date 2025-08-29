@@ -1,0 +1,65 @@
+{
+  "groups": [
+    {
+      "name": "bfh",
+      "type": "com.bfh.qualifier.config.Settings",
+      "sourceType": "com.bfh.qualifier.config.Settings"
+    },
+    {
+      "name": "bfh.endpoints",
+      "type": "com.bfh.qualifier.config.Settings$Endpoints",
+      "sourceType": "com.bfh.qualifier.config.Settings",
+      "sourceMethod": "getEndpoints()"
+    },
+    {
+      "name": "bfh.sql",
+      "type": "com.bfh.qualifier.config.Settings$Sql",
+      "sourceType": "com.bfh.qualifier.config.Settings",
+      "sourceMethod": "getSql()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "bfh.email",
+      "type": "java.lang.String",
+      "sourceType": "com.bfh.qualifier.config.Settings"
+    },
+    {
+      "name": "bfh.endpoints.fallback-submit",
+      "type": "java.lang.String",
+      "sourceType": "com.bfh.qualifier.config.Settings$Endpoints"
+    },
+    {
+      "name": "bfh.endpoints.generate-webhook",
+      "type": "java.lang.String",
+      "sourceType": "com.bfh.qualifier.config.Settings$Endpoints"
+    },
+    {
+      "name": "bfh.name",
+      "type": "java.lang.String",
+      "sourceType": "com.bfh.qualifier.config.Settings"
+    },
+    {
+      "name": "bfh.prefer-returned-webhook",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.bfh.qualifier.config.Settings",
+      "defaultValue": true
+    },
+    {
+      "name": "bfh.reg-no",
+      "type": "java.lang.String",
+      "sourceType": "com.bfh.qualifier.config.Settings"
+    },
+    {
+      "name": "bfh.sql.even",
+      "type": "java.lang.String",
+      "sourceType": "com.bfh.qualifier.config.Settings$Sql"
+    },
+    {
+      "name": "bfh.sql.odd",
+      "type": "java.lang.String",
+      "sourceType": "com.bfh.qualifier.config.Settings$Sql"
+    }
+  ],
+  "hints": []
+}

@@ -74,13 +74,12 @@ public class RunnerService {
     }
 
     private int lastTwoDigits(String s) {
-        Matcher m = Pattern.compile("(\d{1,})").matcher(s == null ? "" : s);
-        String digits = "";
-        while (m.find()) digits += m.group(1);
-        if (digits.isEmpty()) return 0;
-        String lastTwo = digits.length() <= 2 ? digits : digits.substring(digits.length() - 2);
-        return Integer.parseInt(lastTwo);
+    String digits = s == null ? "" : s.replaceAll("\\D", "");
+    if (digits.isEmpty()) return 0;
+    String lastTwo = digits.length() <= 2 ? digits : digits.substring(digits.length() - 2);
+    return Integer.parseInt(lastTwo);
     }
+
 
     private Optional<String> find(JsonNode node, List<String> keys) {
         if (node == null) return Optional.empty();

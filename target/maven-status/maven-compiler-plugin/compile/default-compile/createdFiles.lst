@@ -1,0 +1,7 @@
+com/bfh/qualifier/config/Settings$Sql.class
+META-INF/spring-configuration-metadata.json
+com/bfh/qualifier/QualifierApplication.class
+com/bfh/qualifier/RunnerService.class
+com/bfh/qualifier/config/Settings$Endpoints.class
+com/bfh/qualifier/HttpClientConfig.class
+com/bfh/qualifier/config/Settings.class
